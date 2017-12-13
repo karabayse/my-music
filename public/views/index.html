@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/bootstrap.min.js">
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="vendors/sweetalert.css"> -->
+    <!-- <script src="vendors/sweetalert.min.js" charset="utf-8"></script> -->
+    <!-- <script src="vendors/jquery.min.js" charset="utf-8"></script> -->
+    <script src="vendors/angular.min.js" charset="utf-8"></script>
+    <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="scripts/musicController.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <title>My Music</title>
   </head>
-  <body>
+  <body ng-app="myApp">
+
+    <base href="/">
+
+    <main ng-view></main>
 
   </body>
 </html>

@@ -18,6 +18,16 @@
 
 
 
+/**** USER AGENT ****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 /* **** HOME **** */
 
 .homeBackgroundDiv {
@@ -36,6 +46,20 @@
 }
 
 #homeTitle {
-  text-align: right;
-  text-align: bottom;
+  /* text-align: right; */
+  font-family: "Monoton";
+  color: #DC143C;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#viewCollectionButton {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-right: 50px;
 }
