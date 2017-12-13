@@ -1,7 +1,7 @@
 // requires
 var express = require('express');
 var app = express();
-// var index = require('./modules/routes/index');
+var index = require('./modules/routes/index');
 // var reservation = require('./modules/routes/  ');
 var path = require('path');
 var bodyParser = require('body-parser');
