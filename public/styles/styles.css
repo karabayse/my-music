@@ -88,3 +88,15 @@
 .navbar {
   border-radius: 0;
 }
+
+header {
+  text-align: center;
+}
+
+#myMusicCollection {
+  color: #00688B;
+}
+
+hr {
+  color: #00688B;
+}
