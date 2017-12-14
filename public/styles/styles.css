@@ -33,7 +33,7 @@
 .homeBackgroundDiv {
   margin-top: -2em;
   /*min-height: 853px;*/
-  min-height: 953px;
+  min-height: 1100px;
   background: linear-gradient(
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05)
@@ -54,7 +54,7 @@
   right: 0;
   padding-right: 30px;
   padding-bottom: 50px;
-  font-size: 70px;
+  font-size: 75px;
 }
 
 #viewCollectionButton {
