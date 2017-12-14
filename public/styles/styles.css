@@ -45,7 +45,7 @@
   background-size: cover;
 }
 
-#homeTitle {
+#myMusicLogoHome {
   /* text-align: right; */
   font-family: "Monoton";
   color: #DC143C;
@@ -63,4 +63,28 @@
   right: 0;
   margin-right: 30px;
   margin-bottom: 25px;
+}
+
+
+
+/* **** COLLECTION **** */
+
+#myMusicLogoHeader {
+  font-family: "Monoton";
+  color: #DC143C;
+  /* padding-left: 20px; */
+}
+
+/* li a {
+  color: Black;
+}
+
+.navbarDiv {
+  background-color: Black;
+  border-style: dotted;
+  border-bottom-color: #33A1C9;
+} */
+
+.navbar {
+  border-radius: 0;
 }
