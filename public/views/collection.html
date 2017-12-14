@@ -26,12 +26,27 @@
   </div>
 </nav>
 
-<div class="collectionBackgroundDiv">
+<div class="collectionBackgroundDiv" ng-controller="CollectionController as cc">
 
   <header>
     <h1 id="myMusicCollection">My Music Collection</h1>
     <hr width="100%">
   </header>
+
+
+  <div class="container">
+
+    <input type="text" ng-model="cc.keyWord" placeholder="KEY WORD"/>
+    <button type="button" name="searchButton" class="btn-round-sm" ng-click="cc.keyWordFunction(cc.keyWord)">SEARCH</button>
+
+    <div class="row">
+      <div class="col-md-3 search" ng-repeat="album in cc.keyWordArray">
+        <img ng-src="{{ album }}" class="img-thumbnail">
+      </div>
+    </div>
+
+  </div>
+  <!-- **** End container **** -->
 
 </div>
 <!-- **** End collectionBackgroundDiv **** -->
